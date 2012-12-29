@@ -1,0 +1,39 @@
+# Don't try and put anything malicious in here.
+# :P  ( Do I only invite it at that point? )
+#   --AMM
+
+[video]
+#res= (7000, 3150)
+res= (1280, 800)
+fullscreen= True
+port= 52850
+
+# [audio]
+
+[dirs]
+# home_dir is the main game folder.  this is useful when the
+#   game is being run through Chromium and the actual game
+#   directory cannot be found via os.getcwd().  if this is
+#   set to "-default-" the os.getcwd() will be assumed.
+home_dir= -default-
+media_home= data
+# the editor of this file should note that the following dirs
+#   are always assumed to exist under $media_home, so changing
+#   $media_home is as good as changing all of them as long as
+#   you copy 'media' with its contents somewhere.
+font_dir= fonts
+levels_dir= levels
+sprites_dir= sprites
+ui_dir= UI
+music_dir= music
+sounds_dir= sounds
+python_path_win= 
+python_path_unix= 
+
+[player]
+player_name= Player
+controller= mouse
+
+
+
+

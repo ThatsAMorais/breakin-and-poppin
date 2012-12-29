@@ -1,0 +1,9 @@
+# The key configuration
+
+[keys]
+north= w
+south= s
+east= d
+west= a
+pause= p
+back= \x1b

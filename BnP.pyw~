@@ -1,0 +1,21 @@
+#####	   File : BnP.py
+####	 Author : Alex Morais
+### Description	: The run-game script
+##
+
+import os, sys, socket
+from OpenGL.GL import *
+from OpenGL.GLU import *
+from OpenGL.GLUT import *
+
+from engine.GameEngine import *
+
+
+if __name__ == '__main__':
+
+    engine = GameEngine()
+
+    while True:
+	glutMainLoop()
+	
+
